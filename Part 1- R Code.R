@@ -206,10 +206,9 @@ ts_plot_all_variables <- ggplot(hp_long, aes(x = Quarter, y = Value, color = Cou
   theme_minimal() +
   theme(legend.position = "bottom") # Move legend for better layout
 
-# --- END MODIFIED SECTION ---
-
 
 # Print plots
 print(volatility_plot)
 print(corr_plot)
 print(ts_plot_all_variables) # Print the new, comprehensive time series plot
+
